@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi Form Sabrina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="#" method="post">
+        <div class="form-header">
+            <h1>Registration Form</h1>
+        </div>
+
+        <div class="form-content">
+            <!-- Full Name -->
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="mail">
+            </div>
+
+            <!-- Phone Number -->
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+
+            <div class="form-section">
+                <h4>Choose Your Gender</h4>
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" id="male" name="gender" value="MALE">
+                        <label for="male">Male</label>
+                    </div>
+
+                    <div class="radio-item">
+                        <input type="radio" id="female" name="gender" value="FEMALE">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h4>Choose Your Hobbies</h4>
+                <div class="checkbox-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="hobi1" name="hobi1" value="painting">
+                        <label for="hobi1">Painting</label>
+                    </div>
+
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="hobi2" name="hobi2" value="reading">
+                        <label for="hobi2">Reading</label>
+                    </div>
+
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="hobi3" name="hobi3" value="music">
+                        <label for="hobi3">Music</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row">
+            
+                <div class="form-group">
+                    <label for="birthday">Date of Birth</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+
+                <div class="form-group">
+                    <label for="jurusan">Program of Study</label>
+                    <select id="jurusan" name="jurusan">
+                        <option value="">Choose your program</option>
+                        <option value="sisfor">Information Systems</option>
+                        <option value="comsi">Computer Science</option>
+                        <option value="dkv">Digital Communication Visual</option>                    
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Full Address</label>
+                <textarea name="alamat" id="address" placeholder="Contoh: Jl. Alam Sutera"></textarea>
+            </div>
+
+            <div class="button-group">
+                <button type="submit">Submit Registration</button>
+            </div>
+        </div>
+
+            <!-- FOOTER -->
+            <footer class="form-footer">
+            <p>&copy; 2026 Sabrina. All Right Reserved.</p>
+            </footer>
+    </form>
+</body>
+</html>
